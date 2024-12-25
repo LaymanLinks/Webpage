@@ -1,0 +1,54 @@
+.website-heading {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  border-radius: 30px;
+  color: white;
+  background-color: rgb(7, 9, 161);
+  box-shadow: 5px 5px 10px rgba(218, 196, 196, 0.45);
+  font-size: 30px;
+  font-family: calibri;
+}
+
+.link-entry {
+  font-family: Calibri;
+  margin-top: 0px;
+  font-size: 20px;
+  text-align: left;
+  margin-left: 20px;
+  color: Black;
+  margin-left: 50px;
+}
+
+.link{
+  background-color: white;
+  border-color: rgb(7, 9, 161);
+  border-style: solid;
+  border-width: 1px;
+  color: rgb(7, 9, 161);
+  border-radius: 2px;
+  cursor: pointer;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 25px;
+  padding-right: 25px;
+  transition: background-color 0.15s,
+    color 0.15s;
+  margin-left: 25px;
+}
+
+.link:hover{
+  background-color: rgb(7, 9, 161);
+  color: white;
+}
+
+.link:active { 
+  opacity: 0.7;
+}
+
+
+.flex {
+  display: flex;
+  flex-direction: row;
+}
